@@ -1,5 +1,11 @@
 <template>
-  <router-view/>
+  <nav>
+    <router-link  to = "/">Home</router-link>|
+    <router-link  to = "/feed">Feed</router-link>|
+    <router-link to = "register">Register</router-link>|
+    <router-link to = "sign-out">Signout</router-link>
+
+  </nav>
 </template>
 
 <script>
